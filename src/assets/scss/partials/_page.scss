@@ -1,0 +1,60 @@
+table.body {
+    background: $white;
+}
+
+td.columns,
+td.column,
+th.columns,
+th.column {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.mail-header {
+    td.columns,
+    td.column,
+    th.columns,
+    th.column {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+.mail-body {
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style-position: inside;
+    }
+
+    hr {
+        padding: 0;
+        margin: 0;
+        border: none;
+        height: 3px;
+        background-color: #f1f1f1;
+    }
+}
+
+.mail-footer {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    td,
+    th,
+    a,
+    small {
+        color: $white;
+    }
+
+    @media only screen and (max-width: 679px) {
+        th.small-12 + th.small-12 {
+            margin-top: 30px;
+        }
+    }
+}
+

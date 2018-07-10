@@ -1,0 +1,22 @@
+.default-theme {
+    a,
+    h1,
+    h2,
+    h3 {
+        color: $default-primary-color;
+    }
+
+    .mail-footer {
+        background-color: $default-primary-color;
+
+        a {
+            color: inherit;
+        }
+    }
+
+    table.table-primary {
+        th {
+            background-color: $default-primary-color;
+        }
+    }
+}

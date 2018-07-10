@@ -1,0 +1,7 @@
+@mixin create-text-classes () {
+    @for $size from 10 through 40 {
+        .text-#{$size} {
+            font-size: #{$size}px;
+        }
+    }
+}
